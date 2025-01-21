@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaldiram</title>
+    <link rel="stylesheet" href="stylejaldiram.css">
+    <script src="abo.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>JALDIRAM</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#menus">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#Feedback">Feedback</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="overlay" id="Home"></div>
+        <div class="content">
+            <h1>Welcome to <span>The World of</span> Tasty & Fresh Food</h1>
+            <button class="order-now">Order Now</button>
+        </div>
+    </main>
+
+    <!-- Chatbot Popup -->
+    <div class="chatbot-popup">
+        <span class="close-popup">&times;</span>
+        <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/3a266196-ac34-4754-8bb5-3115e8ccddfa"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+    
+
+    <section class="s1">
+    
+        <div class="menu-section" id="menus">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="images/186e0fcd039f50720384766fe4cf2aff.jpg" alt="Menu Item 1">
+                <h3>Biryani</h3>
+                <p>Fragrant rice with tender chicken and spices.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/chole-bhature-indian-hot-dish-generate-ai-fried-curry-onion-spicy-299456660.webp" alt="Menu Item 2">
+                <h3>Chole Bhature</h3>
+                <p>Classic North Indian dish.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/Lets Have Dosa_.jpg" alt="Menu Item 3">
+                <h3>Masala Dosa</h3>
+                <p>Crispy rice crepe with spicy potato filling.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/rrd.jpg" alt="Menu Item 4">
+                <h3>Rawa Dosa</h3>
+                <p>Traditional South Indian Rawa dosa.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/pb.jpg" alt="Menu Item 5">
+                <h3>Pav-Bhaji</h3>
+                <p>Spiced vegetable mash with buttery bread rolls.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/b02c17380faf5a06a89d8db1bd2c0a02.jpg" alt="Menu Item 6">
+                <h3>Samosa</h3>
+                <p>Spicy fried pastry.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/20af85f5d3835c398007e7660315c7c4.jpg" alt="Menu Item 7">
+                <h3>Vada-Pav</h3>
+                <p>Spicy potato fritter in soft bread.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/e2a56b02148514b14d194f94e656088a.jpg" alt="Menu Item 8">
+                <h3>Mango Lassi</h3>
+                <p>Rich, creamy mango drink with yogurt.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images//ea5c438aa89fe61e6e5c9806fed674bb.jpg" alt="Menu Item 9">
+                <h3>Pizza</h3>
+                <p>Thin-crust pizza with rich masala toppings.</p>
+            </div>
+        </div>
+        <div class="about-hero" id="about">
+            <div class="overlay"></div>
+        </div>
+           
+    </section>
+<!-- Slideshow Section -->
+<section id="about">
+    <div class="about-slideshow">
+    <h2>About Our Restaurant</h2>
+    <div class="slideshow">
+        <div class="slideshow-container">
+            <div class="slideshow-slide">
+                <img src="images/inte.png" alt="Restaurant Interior">
+                <p>Enjoy our beautifully designed interior with a welcoming ambiance.</p>
+            </div>
+            <div class="slideshow-slide">
+                <img src="images/foood.jpg" alt="Restaurant Chefs">
+                    <p>Meet our skilled chefs, who are passionate about creating delicious dishes.</p>
+            </div>
+            <div class="slideshow-slide">
+                <img src="images/dining.jpg" alt="Restaurant Dining Area">
+                <p>Our dining area is perfect for family gatherings and special occasions.</p>
+            </div>
+        </div>
+        <button class="slideshow-prev">&#10094;</button>
+        <button class="slideshow-next">&#10095;</button>
+    </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>For inquiries, please reach out to us using any of the following methods:</p>
+    <div class="contact-info " >
+        <div class="contact-item">
+            <img src="images/phone.png" alt="Phone Icon">
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="contact-item">
+            <img src="images/mail.png" alt="Email Icon">
+            <p>contact@jaldiram.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="images/loca.png" alt="Location Icon">
+            <p>123 Jaldiram Street, City, Country</p>
+        </div>
+    </div>
+
+    <form class="contact-form" id="Feedback">
+        <h4>Feedback Form</h4>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 Jaldiram. All rights reserved.</p>
+</footer>
+
+
+    
+</body>
+</html>
+
